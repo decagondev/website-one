@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Website One - A clean, responsive website showcasing modern web design">
+    <title>Website One</title>
+    <link rel="stylesheet" href="public/css/normalize.css">
+    <link rel="stylesheet" href="public/css/styles.css">
+    <link rel="icon" href="public/images/favicon.ico" type="image/x-icon">
+    <!-- Preload critical assets -->
+    <link rel="preload" href="public/css/styles.css" as="style">
+    <link rel="preload" href="public/js/main.js" as="script">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <div class="logo">
+                <a href="/">Website One</a>
+            </div>
+            <nav class="main-nav">
+                <button class="mobile-menu-toggle" aria-label="Toggle navigation menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+                <ul class="nav-list">
+                    <li><a href="/" class="active">Home</a></li>
+                    <li><a href="/about.html">About</a></li>
+                    <li><a href="/services.html">Services</a></li>
+                    <li><a href="/contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-parallax" style="background-image: url('https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg?auto=compress&cs=tinysrgb&w=1600');"></div>
+            <div class="container">
+                <h1>Welcome to Website One</h1>
+                <p class="hero-text">A modern, responsive website built with clean code and best practices.</p>
+                <div class="cta-buttons">
+                    <a href="/about.html" class="btn btn-primary">Learn More</a>
+                    <a href="/contact.html" class="btn btn-primary">Get in Touch</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="features">
+            <div class="container">
+                <h2>Our Features</h2>
+                <div class="feature-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <img src="public/images/responsive-icon.svg" alt="Responsive Design Icon" width="64" height="64">
+                        </div>
+                        <h3>Responsive Design</h3>
+                        <p>Looks great on all devices, from mobile phones to desktop computers.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <img src="public/images/performance-icon.svg" alt="Performance Icon" width="64" height="64">
+                        </div>
+                        <h3>Fast Performance</h3>
+                        <p>Optimized for speed with clean code and efficient assets.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <img src="public/images/accessibility-icon.svg" alt="Accessibility Icon" width="64" height="64">
+                        </div>
+                        <h3>Accessibility</h3>
+                        <p>Built with accessibility in mind, ensuring everyone can use our site.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about-preview">
+            <div class="container">
+                <div class="about-content">
+                    <h2>About Us</h2>
+                    <p>Website One is dedicated to demonstrating the power of clean, efficient web design. We believe that a great website should be fast, accessible, and beautiful.</p>
+                    <a href="/about.html" class="btn btn-text">Read more about us</a>
+                </div>
+                <div class="about-image">
+                    <img src="public/images/about-preview.svg" alt="Our team working together" width="400" height="300">
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-preview">
+            <div class="container">
+                <h2>Get In Touch</h2>
+                <p>Have questions or want to learn more? We'd love to hear from you.</p>
+                <a href="/contact.html" class="btn btn-primary">Contact Us</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-info">
+                    <h3>Website One</h3>
+                    <p>A demonstration of modern web design and development best practices.</p>
+                </div>
+                <div class="footer-nav">
+                    <h4>Navigation</h4>
+                    <ul>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/about.html">About</a></li>
+                        <li><a href="/services.html">Services</a></li>
+                        <li><a href="/contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact Info</h4>
+                    <address>
+                        <p>Email: <a href="mailto:info@websiteone.com">info@websiteone.com</a></p>
+                        <p>Phone: <a href="tel:+1234567890">(123) 456-7890</a></p>
+                    </address>
+                </div>
+                <div class="footer-social">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><span class="sr-only">Facebook</span></a>
+                        <a href="#" aria-label="Twitter"><span class="sr-only">Twitter</span></a>
+                        <a href="#" aria-label="Instagram"><span class="sr-only">Instagram</span></a>
+                        <a href="#" aria-label="LinkedIn"><span class="sr-only">LinkedIn</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Website One. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="public/js/main.js" defer></script>
+</body>
+</html> 

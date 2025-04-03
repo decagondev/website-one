@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+  <!-- Browser Window -->
+  <rect x="50" y="40" width="300" height="220" rx="8" fill="#ffffff" stroke="#4a6de5" stroke-width="2"/>
+  <rect x="50" y="40" width="300" height="30" rx="8" fill="#4a6de5"/>
+  
+  <!-- Browser Controls -->
+  <circle cx="65" cy="55" r="5" fill="#e74c3c"/>
+  <circle cx="85" cy="55" r="5" fill="#f1c40f"/>
+  <circle cx="105" cy="55" r="5" fill="#2ecc71"/>
+  
+  <!-- URL Bar -->
+  <rect x="125" y="45" width="210" height="20" rx="4" fill="#ffffff" opacity="0.3"/>
+  
+  <!-- Content Sections -->
+  <rect x="70" y="90" width="260" height="30" rx="4" fill="#f8f9fa"/>
+  <rect x="70" y="130" width="120" height="100" rx="4" fill="#f8f9fa"/>
+  <rect x="210" y="130" width="120" height="40" rx="4" fill="#f8f9fa"/>
+  <rect x="210" y="180" width="120" height="50" rx="4" fill="#f8f9fa"/>
+  
+  <!-- Design Elements -->
+  <circle cx="100" cy="180" r="15" fill="#4a6de5" opacity="0.7"/>
+  <rect x="220" y="140" width="30" height="5" rx="2" fill="#4a6de5" opacity="0.7"/>
+  <rect x="260" y="140" width="50" height="5" rx="2" fill="#4a6de5" opacity="0.7"/>
+  <rect x="220" y="155" width="80" height="5" rx="2" fill="#dee2e6"/>
+  <rect x="220" y="190" width="60" height="5" rx="2" fill="#4a6de5" opacity="0.7"/>
+  <rect x="220" y="205" width="90" height="5" rx="2" fill="#dee2e6"/>
+  <rect x="220" y="215" width="70" height="5" rx="2" fill="#dee2e6"/>
+  
+  <!-- Mobile Device -->
+  <rect x="320" y="160" width="40" height="80" rx="5" fill="#ffffff" stroke="#4a6de5" stroke-width="2"/>
+  <rect x="320" y="170" width="40" height="50" fill="#f8f9fa"/>
+  <circle cx="340" cy="230" r="5" fill="#dee2e6"/>
+</svg> 
